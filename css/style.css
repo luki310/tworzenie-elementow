@@ -5,3 +5,24 @@ body {
 .center {
     margin: auto;
 }
+
+.row {
+    margin: 20px 0;
+}
+input {
+    margin-bottom: 10px;
+}
+button {
+    float: right;
+}
+input.error {
+    border-style: solid;
+    border-color: red;
+}
+.error-mess {
+    color: red;
+    opacity: 0;
+}
+.error-mess.error  {
+    opacity: 1;
+}
